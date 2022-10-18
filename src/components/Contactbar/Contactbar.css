@@ -1,0 +1,91 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Contactbar {
+    display: flex;
+    font-size: 12px;
+    height: 42px;
+    background: #41444c;
+    z-index: 100;
+    line-height: 14px;
+    margin-bottom: 1px;
+    justify-content: space-between;
+}
+
+
+.bothtogether {
+    margin-right: 5%;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+}
+
+
+.submitprop {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+    background: #ffb900;
+    color: #000;
+    font-weight: bold;
+    padding: 12px 26px;
+    display: block;
+    height: 100% !important;
+
+}
+
+.phone {
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px !important;
+}
+
+.socialmedia {
+    line-height: 44px;
+}
+
+
+
+.socialmmm2 {
+    margin-left: 4% !important;
+    margin-bottom: 1% !important;
+    align-items: center !important;
+    margin-top: 1% !important;
+}
+.agrandar{
+    color: white !important;
+    margin-right: 1%;
+}
+
+.agrandar:hover{ 
+    color: #ffb900 !important; 
+}
+
+
+/* *********************************** */
+/* ********RESPONSIVE ***** */
+/* *********************************** */
+
+ 
+@media (min-width: 40px) and (max-width: 599px) {
+.Contactbar {
+    display: flex !important;
+    font-size: 12px !important;
+    height: 58px !important;
+    background: #41444c !important;
+    z-index: 100 !important;
+    line-height: 14px !important;
+    margin-bottom: 1px !important;
+    justify-content: space-between !important;
+}
+
+}
+

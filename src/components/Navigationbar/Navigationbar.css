@@ -1,0 +1,51 @@
+.navbar{
+    opacity: 0.85;
+    display: flex;
+    background-color: #f9f7f7;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logobar{
+    zoom: 80%;
+    margin: 6% ;
+    margin-left: 15%;
+}
+
+.textlinkbar{
+    color: #2b2b2a;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    text-decoration: none !important;
+}
+
+.textlinkbar:hover{
+    background-color:#ffb900 ;
+    cursor: pointer;
+    color: #E6A213 !important; 
+    color: white !important;
+    text-decoration: white;
+}
+
+.textlinkbar:focus{
+    
+    background-color:#ffb900 ;
+    color: white;
+    
+}
+
+.optionbar{
+    display: flex;
+    margin-right: 7%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+ 

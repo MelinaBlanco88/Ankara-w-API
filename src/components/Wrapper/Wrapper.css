@@ -1,0 +1,12 @@
+.wrapperFlex {
+    height: calc(100vh - 126px);
+    /* margin-top: 80px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    margin-top: 80px;
+    padding: 3em 1.5em;
+}
